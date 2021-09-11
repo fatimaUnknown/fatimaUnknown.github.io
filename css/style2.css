@@ -115,6 +115,7 @@ html, body {
         font-family: arial, sans-serif;
         border-collapse: collapse;
         width: 100%;
+        color:black;
       }
       
       td, th {
@@ -124,5 +125,5 @@ html, body {
       }
       
       tr:nth-child(even) {
-        background-color: #dddddd;
+        background-color: rosybrown;
       }
