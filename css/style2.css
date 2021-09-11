@@ -7,7 +7,7 @@ html, body {
     outline: none;
     font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
-    color: #eee;
+
     }
     body {
     background: url("/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg") no-repeat center;
@@ -111,3 +111,18 @@ html, body {
     height: auto;
     }
     }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
